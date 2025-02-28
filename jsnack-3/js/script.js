@@ -1,3 +1,4 @@
+//creazione di array animali
 const animali = [
     { nome: `Delfino`, famiglia: `delphinidae`, classe: `mammiferi` },
     { nome: `Gatto`, famiglia: `fenidi`, classe: `mammiferi` },
@@ -8,7 +9,7 @@ const animali = [
 
 
 ]
-
+//creazione della solo array mammiferi
 const mammiferi = animali.filter(animali => animali.classe === `mammiferi`)
 
 console.log(mammiferi)

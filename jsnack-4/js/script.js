@@ -1,3 +1,4 @@
+//creazione array delle persone
 const persone = [
     { nome: `Marco`, cognome: `Bimbati`, eta: `28`},
     { nome: `Salvatore`, cognome: `Quattrocchi`, eta: `17`},
@@ -10,7 +11,7 @@ const persone = [
 ]
 const guidainfo= [];
 
-
+// creazione della funzione per decidere chi puo guidare o no
 
 for (let i = 0; i < persone.length; i++){
     const persona = persone [i];
