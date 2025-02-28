@@ -13,9 +13,12 @@ const automobili = [
     { marca: "mercedes", modello: "classe A", alimentazione: "diesel" },
 ]
 //creazione degli array separati
- const benzina = automobili.filter(automobili => automobili.alimentazione === "benzina");
- const diesel = automobili.filter(automobili => automobili.alimentazione === "diesel");
- const altre = automobili.filter(auto => auto.alimentazione !== "benzina" && auto.alimentazione !== "diesel");
+
+
+
+const benzina = automobili.filter(automobili => automobili.alimentazione === "benzina");
+const diesel = automobili.filter(automobili => automobili.alimentazione === "diesel");
+const altre = automobili.filter(auto => auto.alimentazione !== "benzina" && auto.alimentazione !== "diesel");
 
 console.log(benzina)
 console.log(diesel)
